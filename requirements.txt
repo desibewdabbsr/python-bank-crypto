@@ -1,0 +1,6 @@
+razorpay
+python-binance
+requests
+python-telegram-bot
+pyyaml
+fpdf

@@ -1,0 +1,36 @@
+razorpay:
+  api_key: "YOUR_RAZORPAY_API_KEY"
+  api_secret: "YOUR_RAZORPAY_API_SECRET"
+
+binance:
+  api_key: "YOUR_BINANCE_API_KEY"
+  api_secret: "YOUR_BINANCE_API_SECRET"
+
+coinex:
+  api_key: "YOUR_COINEX_API_KEY"
+  api_secret: "YOUR_COINEX_API_SECRET"
+
+bybit:
+  api_key: "YOUR_BYBIT_API_KEY"
+  api_secret: "YOUR_BYBIT_API_SECRET"
+
+bitget:
+  api_key: "YOUR_BITGET_API_KEY"
+  api_secret: "YOUR_BITGET_API_SECRET"
+
+telegram:
+  bot_token: "YOUR_TELEGRAM_BOT_TOKEN"
+  chat_id: "YOUR_TELEGRAM_CHAT_ID"
+
+banks:
+  accounts:
+    - name: "account1"
+      upi: "account1@upi"
+      debit_card: "xxxx-xxxx-xxxx-1234"
+      imps: "IMPS-ACCOUNT1"
+    - name: "account2"
+      upi: "account2@upi"
+      debit_card: "xxxx-xxxx-xxxx-5678"
+      imps: "IMPS-ACCOUNT2"
+
+sleep_interval: 60  # Interval to check for transactions
